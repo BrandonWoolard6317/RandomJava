@@ -10,8 +10,5 @@ public class Main {
         dataInfo locationGrabber = new dataInfo();
         String Lamo = locationGrabber.locationGrabber(usersInput,r);
         System.out.println(Lamo);
-        GUI locationStats = new GUI();
-        String Kings = locationStats.Winzo();
-        System.out.println(Kings);
     }
 }
