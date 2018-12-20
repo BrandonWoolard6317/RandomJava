@@ -7,13 +7,7 @@ public class GUI {
 
     }
     public static String Winzo() {
-        Scanner usersInput = new Scanner(System.in);
-        dataInfo chestSpots = new dataInfo();
-        String Zingo = chestSpots.calculateChestSpots(2);
-        System.out.println("---------------------------------");
-        System.out.println(Zingo);
-        System.out.println("---------------------------------");
-        return "";
+      
     }
 }
 
