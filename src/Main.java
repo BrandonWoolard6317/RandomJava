@@ -1,21 +1,17 @@
 import java.util.Scanner;
-import java.util.Arrays;
-
+import Data.dataInfo;
+import Data.GUI;
 
 public class Main {
     public static void main(String[]args){
-
-    }
-}
-
-class ClassA {
-    public static void Wow(){
-
-    }
-}
-
-class ClassB {
-    public static void Zar(){
-
+        String usersResponse = "";
+        int r = 0;
+        Scanner usersInput = new Scanner(System.in);
+        dataInfo locationGrabber = new dataInfo();
+        String Lamo = locationGrabber.locationGrabber(usersInput,r);
+        System.out.println(Lamo);
+        GUI locationStats = new GUI();
+        String Kings = locationStats.Winzo();
+        System.out.println(Kings);
     }
 }
