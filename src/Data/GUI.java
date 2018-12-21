@@ -7,7 +7,7 @@ public class GUI {
 
     }
     public static String Winzo() {
-      
+      return "";
     }
 }
 
